@@ -118,6 +118,23 @@ The model outputs:
 This probability becomes the foundation for decision-making.
 
 ---
+## 🖥 Interactive Demo (Notebook Widgets)
+
+To make the decision support system easy to use and demonstrate, the project includes an **interactive input interface using notebook widgets**.
+
+- Users can enter applicant details (income, loan amount, credit history, etc.) via input widgets
+- The system runs inference using the trained Logistic Regression model
+- Outputs displayed in real time:
+  - Approval probability
+  - Decision bucket (Approve / Review / Reject)
+  - Key influencing factors
+  - Actionable recommendations
+
+This widget-based interface allows the model to be **used like a lightweight application** directly within a Jupyter / Google Colab notebook, without requiring a separate frontend or deployment setup.
+
+> Note: Model and preprocessing artifacts are saved and reloaded so that only the demo cells need to be executed per session.
+
+---
 
 ## Decision Logic (Core System Design)
 
