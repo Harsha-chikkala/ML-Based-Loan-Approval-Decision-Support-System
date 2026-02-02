@@ -59,7 +59,7 @@ Steps:
 
 ---
 
-## 🧱 Data Preparation & Preprocessing
+## Data Preparation & Preprocessing
 
 ### Feature Selection
 Dropped:
