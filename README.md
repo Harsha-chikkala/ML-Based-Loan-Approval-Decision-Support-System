@@ -2,10 +2,10 @@
 
 ## Project Overview
 
-This project implements an **end-to-end Machine Learning–based Decision Support System** for loan approval.  
-Instead of producing only binary predictions, the system outputs **approval probabilities**, converts them into **actionable business decisions**, and provides **transparent explanations and recommendations**.
+This project implements an end-to-end Machine Learning–based Decision Support System for loan approval.  
+Instead of producing only binary predictions, the system outputs **approval probabilities**, converts them into **actionable business decisions**, and provides transparent explanations and recommendations.
 
-The focus of the project is **decision quality, interpretability, and real-world applicability**, not just model accuracy.
+The focus of the project is decision quality, interpretability, and real-world applicability, not just model accuracy.
 
 ---
 
