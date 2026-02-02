@@ -1,6 +1,6 @@
 # ML-Based Loan Approval Decision Support System
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements an **end-to-end Machine Learning–based Decision Support System** for loan approval.  
 Instead of producing only binary predictions, the system outputs **approval probabilities**, converts them into **actionable business decisions**, and provides **transparent explanations and recommendations**.
@@ -9,7 +9,7 @@ The focus of the project is **decision quality, interpretability, and real-world
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Build a supervised ML system for loan approval
 - Handle real-world data challenges (missing values, imbalance)
@@ -19,7 +19,7 @@ The focus of the project is **decision quality, interpretability, and real-world
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 - Dataset: Loan Approval Dataset (tabular)
 - Records: ~1000 applicants
@@ -33,7 +33,7 @@ The focus of the project is **decision quality, interpretability, and real-world
 
 ---
 
-## 🧩 Mini Sub-Project: Label Completion for Test Data
+## Mini Sub-Project: Label Completion for Test Data
 
 ### Problem
 The original dataset was split into:
@@ -85,7 +85,7 @@ Retained features are:
 
 ---
 
-## ⚖️ Target Imbalance Handling
+## Target Imbalance Handling
 
 - Target distribution: ~72% approved, ~28% rejected
 - No artificial balancing applied
@@ -96,7 +96,7 @@ This preserves **probability calibration**, which is critical for decision syste
 
 ---
 
-## 🤖 Model Selection
+## Model Selection
 
 ### Primary Model: Logistic Regression
 
@@ -110,7 +110,7 @@ The goal is **trustworthy decisions**, not black-box performance.
 
 ---
 
-## 📈 Model Output
+## Model Output
 
 The model outputs:
 - `P(Loan Approved | Applicant Data)`
@@ -119,7 +119,7 @@ This probability becomes the foundation for decision-making.
 
 ---
 
-## 🧠 Decision Logic (Core System Design)
+## Decision Logic (Core System Design)
 
 Approval probabilities are converted into **three decision buckets**:
 
@@ -133,7 +133,7 @@ This mirrors real-world workflows where uncertain cases require human review.
 
 ---
 
-## 🔍 Explainability (Without SHAP)
+## Explainability (Without SHAP)
 
 Explainability is achieved using **intrinsic Logistic Regression properties**:
 
@@ -148,7 +148,7 @@ This ensures:
 
 ---
 
-## 🧠 Recommendation Engine
+## Recommendation Engine
 
 Based on high-impact feature contributions:
 - Negative contributors → corrective suggestions
@@ -166,7 +166,7 @@ Recommendations are:
 
 ---
 
-## 🧪 Evaluation Strategy
+## Evaluation Strategy
 
 - Stratified train–validation split
 - Metrics:
